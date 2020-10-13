@@ -1,0 +1,34 @@
+textarea {
+    min-height: 400px;
+}
+.mailbox_item_unread
+{
+	background-color:white;
+	padding:10px;
+	margin:10px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+.mailbox_item_read
+{
+	background-color:lightgrey;
+	padding:10px;
+	margin:10px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+.mailbox_item_read:hover
+{
+	 box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.44);
+	}
+.mailbox_item_unread:hover
+{
+	 box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.44);
+}
+#body-view
+{
+	font-size: 15px;
+	margin-top: 5%;
+	
+}
+
